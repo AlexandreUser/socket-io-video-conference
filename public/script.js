@@ -51,6 +51,10 @@ function connectToNewUser(userId, stream) {
 }
 
 function addVideoStream(video, stream) {
+  videos = document.getElementsByTagName("video");
+  for (let i = 0; i < videos.length; i++) {
+    document.getElementsByTagName("video")[i].id = "small";
+  }
   video.srcObject = stream;
   video.addEventListener("loadedmetadata", () => {
     video.play();

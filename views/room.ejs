@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script>
+      const ROOM_ID = "<%= roomId %>";
+    </script>
+    <script
+      defer
+      src="https://unpkg.com/peerjs@1.2.0/dist/peerjs.min.js"
+    ></script>
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="script.js" defer></script>
+    <title>Treatmentstreet Video Conference</title>
+    <style>
+      #video-grid {
+        display: flex;
+        width: 50%;
+      }
+      @media only screen and (max-width: 600px) {
+        #video-grid {
+          display: block;
+          width: 100%;
+        }
+        .flex-div {
+          display: block !important;
+          width: 100%;
+        }
+        .block-inline {
+          width: 100% !important;
+        }
+        .block-div {
+          width: 100% !important;
+        }
+        .comment-div {
+          width: 100% !important;
+          height: 50vh !important;
+        }
+        .comment-container {
+          display: none;
+        }
+        .flex-seventh-div {
+          width: 100% !important;
+        }
+      }
+      body {
+        margin: 0 !important;
+        background-color: #009688;
+      }
+
+      video {
+        min-width: 100%;
+        height: 40vh;
+        object-fit: cover;
+      }
+      .block-div {
+        display: block;
+        width: 70%;
+      }
+      .flex-seventh-div {
+        display: flex;
+        justify-content: center;
+        width: 70%;
+      }
+      .flex-div {
+        display: flex;
+      }
+      .comment-div {
+        background-color: white;
+        width: 30%;
+        height: 90vh;
+      }
+      .title-image {
+        width: 30%;
+        margin-left: calc(50% - 15%);
+        margin-top: 5%;
+      }
+      .line {
+        margin-top: 10px;
+        min-width: 100%;
+        height: 2px;
+        background-color: #e3e3e3;
+      }
+      .sub-line {
+        width: 100%;
+        height: 10vh;
+        background-color: white;
+      }
+      .block-inline {
+        display: block;
+      }
+      .comment-container {
+        background-color: #e3e3e3;
+        width: 90%;
+        margin: 0 auto;
+        height: 55vh;
+        margin-top: 10%;
+        border-radius: 10px;
+      }
+      .input-container {
+        background-color: #e3e3e3;
+        width: 70%;
+        margin: 0 auto;
+        height: 35px;
+        margin-top: 5%;
+        margin-left: calc(50% - 45%);
+        border-radius: 10px;
+        border: none;
+      }
+      .send-button {
+        margin-right: 5%;
+        margin-left: 5%;
+        height: 35px;
+        margin-top: 5%;
+        border-radius: 10px;
+        width: 20%;
+        background-color: #009688;
+        color: white;
+        font-weight: bold;
+        border: none;
+      }
+      .comment-section {
+        display: flex;
+      }
+      .clicable-image {
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block-inline">
+      <div class="flex-div">
+        <div class="block-div">
+          <div id="video-grid"></div>
+        </div>
+        <div class="comment-div">
+          <div class="title">
+            <img src="/logo.png" class="title-image" />
+            <div class="line"></div>
+            <div class="comment-container"></div>
+            <div class="comment-section">
+              <input class="input-container" />
+              <button class="send-button">send</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub-line">
+        <div class="flex-seventh-div">
+          <img src="/mute.png" height="50px" class="clicable-image" />
+          <img src="/end.png" height="50px" class="clicable-image" />
+          <img src="/cameraoff.png" height="50px" class="clicable-image" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

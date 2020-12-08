@@ -10,6 +10,8 @@ app.use(express.static("public"));
 app.get("/", (req, res) => {
   res.redirect(`/${uuidV4()}`);
 });
+app.use(express.static(__dirname + '/views/style'));
+
 app.get("/:room", (req, res) => {
   res.render("room", { roomId: req.params.room });
 });
@@ -23,4 +25,4 @@ io.on("connection", (socket) => {
     });
   });
 });
-server.listen(3000);
+server.listen(3002);

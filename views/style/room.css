@@ -1,0 +1,1785 @@
+.mainContainer {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f2f6;
+  }
+  p{
+    font-family: Arial;
+
+  }
+  .editorField {
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #009688;
+  }
+  .profileUserContainer {
+    width: 90%;
+    min-height: 200px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+  }
+  .collapsible_menu_holder {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .signUpButton {
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    margin-top: 5px;
+    margin-left: 50px;
+    height: 50px;
+    border: none;
+    background: #ff8000 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #ff8000;
+    border-radius: 8px;
+    opacity: 1;
+    margin-right: 5px;
+    text-align: center;
+    margin-left: calc(50% - 60px);
+  }
+  .collapsible_menu_holder_flex {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+  }
+  .profileUserContainerBiography {
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 18px #00000029;
+    width: 90%;
+    min-height: 200px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+  }
+  .doctorProfileContainer {
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 18px #00000029;
+    border-radius: 20px;
+    width: 70%;
+    display: flex;
+  }
+  .repuscoreProfileContainer {
+    margin-left: 5%;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 18px #00000029;
+    border-radius: 20px;
+    width: 35%;
+  }
+  .textAlignRepuscoreReviews {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 25px;
+    color: #009688;
+    cursor: pointer;
+  }
+  .underLineLocation {
+    text-decoration: underline;
+  }
+  .doctorMainName {
+    font-size: 24px;
+  }
+  .greenText {
+    color: #009688;
+    margin-bottom: 0px;
+  }
+  span.repuscoreRed {
+    color: #f75353;
+  }
+  .phoneNumber {
+    margin-top: -10px;
+    font-size: 14px;
+  }
+  .imageProfileContainer {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-left: 30px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .informationContainer {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 65px;
+  }
+  .informationContainer_input {
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+  }
+  .boxChart {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .menuContainer {
+    width: 350px;
+    height: 850px;
+    margin-top: 30px;
+    border-radius: 30px;
+    background-color: #009688;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+  .tabsContainer {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #009688;
+  }
+  .tabItem {
+    width: 33.3%;
+    border-left: 1px solid #009688;
+    border-top: 1px solid #009688;
+  }
+  .tabItemInitial {
+    width: 33.3%;
+    border-top-left-radius: 20px;
+    border-left: 1px solid #009688;
+    border-top: 1px solid #009688;
+  }
+  .tabItemInitialSelected {
+    width: 33.3%;
+    border-top-left-radius: 20px;
+    border-left: 2px solid #02b3a2;
+    border-top: 2px solid #02b3a2;
+    border-right: 2px solid #02b3a2;
+    border-bottom: 2px solid #02b3a2;
+  }
+  .tabItemEnd {
+    width: 34%;
+    border-top-right-radius: 20px;
+    border-left: 1px solid #009688;
+    border-top: 1px solid #009688;
+    border-right: 1px solid #009688;
+  }
+  .tabItemEndSelected {
+    width: 34%;
+    border-top-right-radius: 20px;
+    border-left: 2px solid #02b3a2;
+    border-top: 2px solid #02b3a2;
+    border-right: 2px solid #02b3a2;
+    border-bottom: 2px solid #02b3a2;
+  }
+  .tabItemSelected {
+    width: 33.3%;
+    border-left: 2px solid #02b3a2;
+    border-top: 2px solid #02b3a2;
+    border-right: 2px solid #02b3a2;
+    border-bottom: 2px solid #02b3a2;
+  }
+  .tabText {
+    text-align: center;
+    color: #009688;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .addressInput {
+    width: 80%;
+    margin-left: 10px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+  }
+  .displayBioFlex {
+    display: flex;
+  }
+  .displayNameFlex {
+    display: flex;
+  }
+  .doctorPageContent {
+    max-width: 80%;
+  }
+  .spaceAdjust {
+    margin-top: 70px;
+  }
+  .nameInput {
+    margin-top: 2px;
+    width: 240px;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border-color: #009688;
+    font-weight: bold;
+    font-size: 12px;
+    color: #009688;
+  }
+  .specialityInput {
+    margin-top: -15px;
+    width: 240px;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border-color: #009688;
+    font-weight: bold;
+    font-size: 12px;
+    color: #009688;
+  }
+  .logo {
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  .bannerContainer {
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 20px;
+  }
+  .logoContainer {
+    padding-top: 30px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+  }
+  .logoText {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+    margin-top: 10px;
+  }
+  .textContainer {
+    margin-top: -5px;
+  }
+  .reviewContainer {
+    width: 80%;
+    margin-left: 15%;
+  }
+  .iconMenu {
+    width: 40px;
+    height: 40px;
+    color: White;
+  }
+  .menuSection {
+    margin-left: 40px;
+    display: flex;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+  .bookButton {
+    border: 2px solid #009688;
+    border-radius: 23px;
+    background-color: white;
+    width: 180px;
+    height: 40px;
+    color: #009688;
+    margin-bottom: 20px;
+    margin-left: calc(50% - 90px);
+    cursor: pointer;
+  }
+  .saveMobile {
+    display: none;
+  }
+  .menuHolder {
+    margin-top: 120px;
+    height: 450px;
+  }
+  .menuText {
+    color: White;
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 5px;
+  }
+  .selected {
+    width: 10px;
+    height: 50px;
+    background-color: white;
+    margin-left: -40px;
+    margin-right: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .logoutContainer {
+    display: flex;
+  }
+  .logoutButton {
+    color: white;
+    background: #ff7a7a 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    border: none;
+    width: 180px;
+    height: 40px;
+    margin: 0 auto;
+  }
+  .adjustButtonContainer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .searchContainer {
+    width: 95%;
+    margin-left: 15px;
+    min-height: 100px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .resultContainer {
+    margin-top: 30px;
+    width: 95%;
+    margin-left: 15px;
+    min-height: 74.5vh;
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+  .body {
+    background-color: #f1f2f6;
+  }
+  .contentContainer {
+    margin-top: 30px;
+    width: 78%;
+  }
+  .searchInput {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 450px;
+    height: 40px;
+    border: 1px solid var(--unnamed-color-00a49e);
+    background: #eefffd 0% 0% no-repeat padding-box;
+    border: 1px solid #00a49e;
+    border-radius: 8px;
+  }
+  .searchInput::placeholder {
+    color: #009688;
+    margin-left: 15px;
+  }
+  .selectedButton {
+    cursor: pointer;
+    margin-left: 16%;
+    margin-top: 0px;
+    margin-bottom: -50px;
+    font-weight: bold;
+    color: #009688;
+    font-size: 20px;
+  }
+  .not_selectedButton {
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: -50px;
+    color: black;
+    font-size: 20px;
+  }
+  .not_selectedButton_last {
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-right: 16%;
+    margin-bottom: -50px;
+    color: black;
+    font-size: 20px;
+  }
+  .searchIcon {
+    margin-top: 40px;
+    color: #00a49e;
+    margin-left: -35px;
+  }
+  .userContainer {
+    padding-left: 50px;
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    display: flex;
+  }
+  .bellIcon {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    color: #30a195;
+  }
+  .bellContainer {
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+    background: #eefffd 0% 0% no-repeat padding-box;
+  }
+  .logoUpper {
+    width: 120px;
+    height: 70px;
+    margin-top: -10px;
+    margin-right: 50px;
+  }
+  .logoUpperHidden {
+    width: 120px;
+    height: 70px;
+    margin-top: -10px;
+    margin-right: 50px;
+    display: none;
+  }
+  .searchBox {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    margin: 0 auto;
+  }
+  .inputBox {
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid #009688;
+    min-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .searchButton {
+    width: 19%;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid #009688;
+    background-color: transparent;
+    min-height: 40px;
+    color: #009688;
+  }
+  .centeredMessage {
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+  }
+  .profileContainer {
+    margin-left: 20px;
+    margin-top: -5px;
+    display: flex;
+    cursor: pointer;
+  }
+  .profilePicture {
+    border-radius: 999px;
+    width: 50px;
+    height: 50px;
+  }
+  .profileName {
+    font-weight: bold;
+    margin-bottom: -10px;
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  
+  .profileType {
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #30a195a6;
+  }
+  .profileArrow {
+    margin-top: 10px;
+    color: #30a195a6;
+  }
+  .loginButton {
+    margin-left: 50px;
+    width: 140px;
+    height: 40px;
+    color: #009688;
+    background-color: none;
+    border: 1px solid #00a49e;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .filterContainer {
+    width: 100%;
+    min-height: 15vh;
+  }
+  .filterText {
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 40px;
+    margin-left: 50px;
+  }
+  
+  .inputRange {
+    min-height: 60px;
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 10px;
+  }
+  .inputRangeSmall {
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10px;
+  }
+  .inputContainer {
+    width: 20%;
+    display: block;
+    margin-left: 15px;
+  }
+  .inputContainerBig {
+    width: 50%;
+    display: block;
+  }
+  .buttonContainerBig {
+    width: 15%;
+    display: block;
+    margin-left: 15px;
+  }
+  .inputFilterText {
+    color: #47495a;
+    font-size: 14px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+  }
+  .inputFilter {
+    width: 90%;
+    height: 40px;
+    border: 1px solid #47495a;
+    color: #47495a;
+    border-radius: 3px;
+  }
+  .inputFilterBig {
+    width: 95%;
+    height: 40px;
+    border: 1px solid #47495a;
+    color: #47495a;
+    border-radius: 3px;
+  }
+  ::placeholder {
+    color: #dbdbdb;
+  }
+  .line {
+    margin: 0 auto;
+    height: 2px;
+    background-color: #dbdbdb;
+    width: 90%;
+    margin-top: 20px;
+  }
+  .quantityContainer {
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .quantityText {
+    font-size: 38px;
+    color: #009688;
+    margin-right: 15px;
+  }
+  .descriptionText {
+    font-size: 38px;
+    color: black;
+    margin-right: 15px;
+  }
+  .doctorContainer {
+    margin: 0 auto;
+    width: 90%;
+    min-height: 400px;
+    max-height: 400px;
+    overflow: auto;
+  }
+  .doctorProfile {
+    display: flex;
+    width: 90%;
+    -webkit-box-shadow: 2px -1px 27px -8px#0000001A;
+    -moz-box-shadow: 2px -1px 27px -8px #0000001a;
+    box-shadow: 2px -1px 27px -8px #0000001a;
+    border-radius: 3px;
+    margin-right: 15px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .doctorImageProfile {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  .doctorContentProfile {
+    width: 70%;
+  }
+  .doctorNameProfile {
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .doctorSpecialityProfile {
+    margin-top: -15px;
+    font-size: 13px;
+  }
+  .address {
+    margin-top: -15px;
+    font-size: 13px;
+  }
+  .addressValue {
+    font-weight: 500;
+    margin-top: -15px;
+    font-size: 13px;
+  }
+  .searchButtonBtn {
+    border: 2px solid #6b7c93;
+    border-radius: 23px;
+    background-color: white;
+    min-width: 100%;
+    min-height: 40px;
+    color: #6b7c93;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  }
+  .viewButton {
+    border: 2px solid #6b7c93;
+    border-radius: 23px;
+    background-color: white;
+    width: 180px;
+    height: 40px;
+    cursor: pointer;
+    color: #6b7c93;
+    margin-bottom: 20px;
+  }
+  .repuscoreContainer_doctor {
+    background: #f5f9f9 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .repuscoreContainer {
+    background: #f5f9f9 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .repuscoreContainer_doctorOnly {
+    background: #f5f9f9 0% 0% no-repeat padding-box;
+    border-radius: 18px;
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: 10px;
+  
+  }
+  
+  .repuscoreTextContainer {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .repuscoreTextContainer span {
+    color: #f75353;
+  }
+  .repuscoreText {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .repuscoreText span {
+    color: red;
+  }
+  .repuscoreDash {
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .flexDoctor {
+    display: block;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .profilePicturePage {
+    margin-top: 120px;
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    object-fit: cover;
+    border-radius: 999px;
+    border: 40px solid #009688;
+    margin-right: 150px;
+  }
+  @media only screen and (max-width: 1700px) {
+    .repuscoreContainer {
+      background: #f5f9f9 0% 0% no-repeat padding-box;
+      border-radius: 18px;
+      width: 130px;
+      height: 130px;
+    }
+    .selectedButton {
+      cursor: pointer;
+      margin-left: 12%;
+      margin-top: 0px;
+      margin-bottom: -50px;
+      font-weight: bold;
+      color: #009688;
+      font-size: 20px;
+    }
+    .not_selectedButton {
+      cursor: pointer;
+      margin-left: 50px;
+      margin-top: 0px;
+      margin-bottom: -50px;
+      color: black;
+      font-size: 20px;
+    }
+    .not_selectedButton_last {
+      cursor: pointer;
+      margin-left: 50px;
+      margin-top: 0px;
+      margin-right: 12%;
+      margin-bottom: -50px;
+      color: black;
+      font-size: 20px;
+    }
+    .repuscoreText {
+      font-size: 15px;
+    }
+    .repuscoreDash {
+      width: 50%;
+    }
+    .doctorProfile {
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    .viewButton {
+      border: 2px solid #6b7c93;
+      border-radius: 23px;
+      background-color: white;
+      width: 130px;
+      color: #6b7c93;
+      margin-top: -5px;
+      margin-bottom: 20px;
+    }
+    .editButton {
+      border: 2px solid #6b7c93;
+      border-radius: 23px;
+      background-color: white;
+      width: 130px;
+      color: #6b7c93;
+      margin-top: -5px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+    }
+    .doctorNameProfile {
+      margin-top: 25px;
+      font-size: 16px;
+    }
+    .profilePicturePage {
+      margin-top: 120px;
+      width: 300px;
+      height: 300px;
+      margin-left: 100px;
+      object-fit: cover;
+      border-radius: 999px;
+      border: 40px solid #009688;
+      margin-right: 100px;
+    }
+  }
+  @media only screen and (max-width: 1500px) {
+    .inputFilterText {
+      font-size: 10px;
+    }
+    .underLineLocation {
+      text-decoration: underline;
+      font-size: 14px;
+    }
+    .doctorMainName {
+      font-size: 22px;
+    }
+    .greenText {
+      color: #009688;
+      font-size: 15px;
+      margin-bottom: 0px;
+    }
+    .repuscoreDash {
+      width: 50%;
+    }
+    .repuscoreContainer {
+      background: #f5f9f9 0% 0% no-repeat padding-box;
+      border-radius: 18px;
+      width: 140px;
+      height: 140px;
+    }
+    .selectedButton {
+      cursor: pointer;
+      margin-left: 6%;
+      margin-top: 0px;
+      margin-bottom: -50px;
+      font-weight: bold;
+      color: #009688;
+      font-size: 20px;
+    }
+    .not_selectedButton {
+      cursor: pointer;
+      margin-left: 30px;
+      margin-top: 0px;
+      margin-bottom: -50px;
+      color: black;
+      font-size: 20px;
+    }
+    .not_selectedButton_last {
+      cursor: pointer;
+      margin-left: 50px;
+      margin-top: 0px;
+      margin-right: 6%;
+      margin-bottom: -50px;
+      color: black;
+      font-size: 20px;
+    }
+    .viewButton {
+      border: 2px solid #6b7c93;
+      border-radius: 23px;
+      background-color: white;
+      width: 120px;
+      color: #6b7c93;
+      margin-top: -5px;
+      margin-bottom: 20px;
+    }
+    .doctorImageProfile {
+      margin-top: 20px;
+      margin-left: 20px;
+      width: 100px;
+      height: 100px;
+      border-radius: 20px;
+      margin-right: 10px;
+    }
+    .doctorNameProfile {
+      margin-top: 25px;
+      font-size: 14px;
+    }
+    .doctorSpecialityProfile {
+      margin-top: -15px;
+      font-size: 10px;
+    }
+    .address {
+      margin-top: -15px;
+      font-size: 10px;
+    }
+    .addressValue {
+      font-weight: 500;
+      margin-top: -15px;
+      font-size: 10px;
+    }
+    .profilePicturePage {
+      margin-top: 120px;
+      width: 250px;
+      height: 250px;
+      margin-left: 10px;
+      object-fit: cover;
+      border-radius: 999px;
+      border: 40px solid #009688;
+      margin-right: 100px;
+    }
+  }
+  /* width */
+  .doctorContainer::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .doctorContainer::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #e6e6e6;
+    background-color: #e6e6e6;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  .doctorContainer::-webkit-scrollbar-thumb {
+    background: #949494;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .doctorContainer::-webkit-scrollbar-thumb:hover {
+    background: #949494;
+  }
+  .pagination {
+    border-radius: 5px;
+  }
+  .doctorPageContainer {
+    width: 95%;
+    margin-left: 15px;
+    min-height: 77.5vh;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+  .doctorNamePage {
+    font-size: 34px;
+    font: normal normal bold;
+    letter-spacing: 0px;
+    color: #47495a;
+    padding-top: 55px;
+    font-weight: bold;
+    width: 250px;
+    margin-left: 30px;
+  }
+  .doctorNamePageInput {
+    font-size: 44px;
+    font: normal normal bold;
+    letter-spacing: 0px;
+    color: #47495a;
+    padding-top: 10px;
+    font-weight: bold;
+    width: 150px;
+    margin-left: 60px;
+  }
+  .doctorDescriptionPage {
+    text-align: left;
+    margin-left: 30px;
+    font-weight: 100;
+    margin-top: -20px;
+    font: normal normal normal;
+    width: 70%;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #00a49e;
+  }
+  .doctorDescriptionPageInput {
+    text-align: left;
+    margin-left: 60px;
+    font-weight: 100;
+    margin-top: -20px;
+    font: normal normal normal;
+    width: 70%;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #00a49e;
+  }
+  .doctorRepuscorePage {
+    display: flex;
+    max-width: 350px;
+    justify-content: space-evenly;
+    width: 55%;
+    height: 150px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 18px #00000029;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+  .progressBarContainer {
+    padding-top: 20px;
+    width: 25%;
+  }
+  text {
+    font-size: 25px !important;
+    text-align: center;
+    font: normal normal normal 25px/28px Poligon;
+    letter-spacing: 0px;
+    color: #47495a;
+  }
+  .progressBarText {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .progressStyle path {
+    stroke: #e13e60 !important;
+  }
+  .progressStyle text {
+    fill: #000000 !important;
+  }
+  
+  .progressStyle {
+    background-color: #ffe9ee;
+    border-radius: 999px;
+  }
+  .repuscoreStyle path {
+    stroke: #00a49e !important;
+  }
+  .repuscoreStyle {
+    background-color: #d2fffa;
+    border-radius: 999px;
+  }
+  .locationContainer {
+    display: flex;
+    width: 48%;
+    max-width: 320px;
+    min-height: 80px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 18px #00000029;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 35px;
+  }
+  .arrowLocation {
+    color: #009688;
+    width: 25px;
+    height: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .locationText {
+    width: 120px;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  .directionText {
+    color: #009688;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-top: 41px;
+    margin-right: 45px;
+  }
+  .phoneText {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 30px;
+  }
+  .buttonContainer {
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+  }
+  .bookingButton {
+    background: var(--unnamed-color-00a49e) 0% 0% no-repeat padding-box;
+    background: #00a49e 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    width: 30%;
+    max-width: 200px;
+    height: 50px;
+    margin-left: 50px;
+  }
+  .favoriteButton {
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-00a49e);
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #00a49e;
+    border-radius: 25px;
+    color: #009688;
+    width: 90px;
+    height: 50px;
+    margin-right: 40px;
+  }
+  
+  .inputEditor {
+    border-radius: 10px;
+    width: 80%;
+    min-height: 100px;
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+  .doctorSpecialityAndName {
+    margin-left: -20px;
+  }
+  .aboutUserContainer {
+    width: 90%;
+    min-height: 300px;
+    margin-top: 50px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 18px #00000029;
+    border-radius: 20px;
+  }
+  .aboutText {
+    padding-top: 15px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #47495a;
+  }
+  .aboutTextContent {
+    font-size: 14px;
+    width: 85%;
+    text-align: justify;
+    margin: 30px;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+  }
+  .lineForAbout {
+    margin: 0 auto;
+    width: 90%;
+    height: 2px;
+    background-color: gray;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .commentCardPage {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  .commentImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 999px;
+  }
+  .commentName {
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .commentSpeciality {
+    color: #009688;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: -15px;
+  }
+  .commentText {
+    margin-top: 20px;
+  }
+  .locationContainerComment {
+    width: 65%;
+    min-height: 300px;
+    max-height: 450px;
+    margin-top: 300px;
+    margin-right: 100px;
+    background-color: white;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 18px #00000029;
+    border-radius: 20px;
+  }
+  .locationImage {
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 10%;
+  }
+  .locationTextMinor {
+    margin-left: 10%;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .locationValue {
+    margin-left: 15%;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .locationDirection {
+    color: #009688;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 30px;
+  }
+  .flexSearcher {
+    display: flex;
+    margin-top: 10px;
+  }
+  .inputFilter {
+    background-color: transparent;
+  }
+  .locationContainerCommentMobile {
+    display: none;
+  }
+  .profilePicturePageMobile {
+    border-radius: 10px;
+  
+    min-width: 160px;
+    height: 160px;
+    display: block;
+    object-fit: cover;
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+  .personalDataDoctor {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+  }
+  .personalDataDoctorInput {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+  }
+  @media only screen and (max-width: 1550px) {
+    .selectedButton{
+      font-size: 18px;
+    }
+    .not_selectedButton{
+      font-size: 18px;
+    }
+    .not_selectedButton_last{
+      font-size: 18px;
+    }
+    .favoriteButton {
+      background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+      border: 1px solid var(--unnamed-color-00a49e);
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #00a49e;
+      border-radius: 25px;
+      color: #009688;
+      width: 90px;
+      height: 50px;
+      margin-left: 30px;
+      margin-right: 5px;
+    }
+    .locationContainerComment {
+      width: 65%;
+      min-height: 300px;
+      max-height: 450px;
+      margin-top: 300px;
+      margin-right: 50px;
+      background-color: white;
+      background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: 0px 0px 18px #00000029;
+      border-radius: 20px;
+    }
+    .doctorSpecialityAndName {
+      margin-left: 50px;
+    }
+    .doctorDescriptionPage {
+      text-align: left;
+      margin-left: -30px;
+      font-weight: 100;
+      width: 70%;
+      font: normal normal normal 22px/25px Poligon;
+      letter-spacing: 0px;
+      color: #00a49e;
+    }
+    .doctorDescriptionPageInput {
+      text-align: left;
+      margin-left: 50px;
+      font-weight: 100;
+      margin-top: -15px;
+      width: 70%;
+      font: normal normal normal 22px/25px Poligon;
+      letter-spacing: 0px;
+      color: #00a49e;
+    }
+    .personalDataDoctor {
+      margin-left: -30px;
+    }
+    .personalDataDoctorInput {
+      margin-left: 30px;
+    }
+    .profilePicturePageMobile {
+      border-radius: 10px;
+      min-width: 120px;
+      height: 120px;
+      display: block;
+      object-fit: cover;
+      margin-top: 60px;
+      margin-left: 80px;
+    }
+    .doctorNamePage {
+      font-size: 29px;
+      font: normal normal bold;
+      letter-spacing: 0px;
+      color: #47495a;
+      padding-top: 50px;
+      font-weight: bold;
+      width: 70%;
+      margin-left: -30px;
+    }
+    .doctorNamePageInput {
+      font-size: 39px;
+      font: normal normal bold;
+      letter-spacing: 0px;
+      color: #47495a;
+      padding-top: 20px;
+      font-weight: bold;
+      width: 70%;
+      margin-left: 50px;
+    }
+  }
+  @media only screen and (max-width: 1200px) {
+    .selectedButton {
+      cursor: pointer;
+      margin-left: 1%;
+      margin-top: 5px;
+      margin-bottom: -50px;
+      font-weight: bold;
+      color: #009688;
+      font-size: 15px;
+    }
+    .not_selectedButton {
+      cursor: pointer;
+      margin-left: 20px;
+      margin-top: 5px;
+      margin-bottom: -50px;
+      color: black;
+      font-size: 15px;
+    }
+    .not_selectedButton_last {
+      cursor: pointer;
+      margin-left: 30px;
+      margin-top: 5px;
+      margin-right: 1%;
+      margin-bottom: -50px;
+      color: black;
+      font-size: 15px;
+    }
+    .personalDataDoctorInput {
+      margin-left: -30px;
+    }
+    .searchInput {
+      width: 300px;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .inputRangeSmall {
+      display: block;
+    }
+    .doctorImageProfile{
+      margin-left: 5px;
+    }
+    .doctorProfileContainer {
+      margin-bottom: -35px;
+    }
+    .profileUserContainerBiography {
+      width: 80%;
+    }
+    .profileUserContainer {
+      display: block;
+      width: 80%;
+    }
+    .profileUserContainerBiography {
+      margin-top: 25px;
+    }
+    .phoneAlign {
+      width: 150px;
+      margin-left: calc(50% - 75px);
+      text-align: center;
+    }
+    .informationContainer {
+      text-align: center;
+    }
+    .imageProfileContainer {
+      width: 140px;
+      height: 140px;
+      margin-left: calc(50% - 70px);
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .doctorProfileContainer {
+      width: 100%;
+      display: block;
+    }
+    .repuscoreProfileContainer {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 20px;
+    }
+    .inputContainerBig {
+      width: 95%;
+      margin-left: 2.5%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    .searchButtonBtn {
+      width: 120px;
+    }
+    .logoUpperHidden {
+      width: 120px;
+      height: 70px;
+      margin-top: -10px;
+      margin-right: 50px;
+      display: block;
+    }
+    .hideInMobile {
+      display: none;
+    }
+    .selectedButton {
+      cursor: pointer;
+      margin-left: 1%;
+      margin-top: 5px;
+      margin-bottom: -50px;
+      font-weight: bold;
+      color: #009688;
+      font-size: 15px;
+      display: none;
+    }
+    .not_selectedButton {
+      cursor: pointer;
+      margin-left: 20px;
+      margin-top: 5px;
+      margin-bottom: -50px;
+      color: black;
+      font-size: 15px;
+      display: none;
+    }
+    .not_selectedButton_last {
+      cursor: pointer;
+      margin-left: 30px;
+      margin-top: 5px;
+      margin-right: 1%;
+      margin-bottom: -50px;
+      color: black;
+      font-size: 15px;
+      display: none;
+    }
+    .displayBioFlex {
+      display: block;
+      width: 80%;
+    }
+    .aboutText {
+      width: 80%;
+    }
+    .reviewContainer {
+      width: 95%;
+      margin-left: 20px;
+    }
+    .saveMobile {
+      display: block;
+      margin-top: -100px;
+    }
+    .nameInput {
+      margin-top: 2px;
+    }
+    .specialityInput {
+      margin-top: 2px;
+    }
+    .adjustButtonContainer {
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    .spaceAdjust {
+      margin-top: 30px;
+    }
+    .biographyText {
+      display: none;
+    }
+    .repuscoreContainer {
+      width: 130px;
+      height: 130px;
+      margin-top: 20px;
+    }
+    .repuscoreText {
+      font-size: 12px;
+    }
+    .doctorPageContent {
+      margin: 0 auto;
+    }
+    .doctorSpecialityAndName {
+      margin-left: 100px;
+    }
+    .doctorDescriptionPage {
+      font: normal normal normal 16px/15px Poligon;
+      margin-top: -10px;
+    }
+    .progressBarText {
+      margin-bottom: 20px;
+    }
+    .menuContainer {
+      margin-bottom: 30px;
+    }
+    .locationContainerCommentMobile {
+      display: block;
+      width: 80%;
+      min-height: 300px;
+      max-height: 400px;
+      margin-top: 100px;
+      background-color: white;
+      background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      box-shadow: 0px 0px 18px #00000029;
+      border-radius: 20px;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+    .locationDirection {
+      margin-right: 30px;
+    }
+    .doctorNamePage {
+      font-size: 20px;
+      margin-top: 25px;
+      padding-top: 0px;
+    }
+    .displayNameFlex {
+      display: block;
+    }
+    .doctorNamePageInput {
+      font-size: 20px;
+      margin-top: 25px;
+    }
+    .locationContainerComment {
+      display: none;
+    }
+    .imageContainerPage {
+      height: 80px;
+    }
+    .personalDataDoctor {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .personalDataDoctorInput {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .profilePicturePageMobile {
+      border-radius: 10px;
+  
+      min-width: 90px;
+      min-height: 90px;
+      max-height: 90px;
+      max-width: 90px;
+      display: block;
+      object-fit: cover;
+      margin-top: 30px;
+      margin-left: 80px;
+    }
+    .aboutUserContainer {
+      width: 80%;
+      margin: 0 auto;
+      margin-top: 50px;
+    }
+    .aboutTextContent {
+      font-size: 12px;
+      margin: 0 auto;
+    }
+    .commentText {
+      font-size: 12px;
+    }
+    .doctorPageContent {
+      width: 80%;
+    }
+    .doctorDescriptionPage {
+      font-size: 20px;
+    }
+    .profilePicturePage {
+      display: none;
+    }
+    .doctorRepuscorePage {
+      width: 100%;
+      height: auto;
+      min-height: 150px;
+      max-height: 100%;
+      margin-left: 0px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+    .locationContainer {
+      width: 95%;
+      margin-left: 0px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+    .bookingButton {
+      width: 50%;
+      margin-left: 12%;
+    }
+    .profileContainer {
+      display: none;
+    }
+    .bellContainer {
+      display: none;
+    }
+    .menuContainer {
+      display: none;
+    }
+    .inputRange {
+      display: block;
+    }
+    .searchInput {
+      width: 150px;
+    }
+    .flexSearcher {
+      min-width: 50%;
+    }
+    .loginButton {
+      display: none;
+    }
+    .flexDoctor {
+      display: block;
+    }
+    .doctorImageProfile {
+      width: 50px;
+      height: 50px;
+    }
+    .doctorSpecialityAndName {
+      margin-left: 40px;
+    }
+    .inputContainer {
+      width: 100%;
+    }
+    .line {
+      margin-top: 20px;
+    }
+    .descriptionText {
+      font-size: 20px;
+    }
+    .quantityText {
+      font-size: 20px;
+    }
+    .repuscoreText {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    .contentContainer {
+      width: 90%;
+    }
+    .doctorContentProfile {
+      width: 35%;
+    }
+    .doctorProfile {
+      width: 95%;
+      box-shadow: 0px 0px 18px #00000029;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    .personalDataDoctor {
+      margin-bottom: 60px;
+    }
+    .personalDataDoctorInput {
+      margin-bottom: 60px;
+    }
+    .favoriteButton {
+      margin-top: 0px;
+    }
+    .profilePicturePageMobile {
+      margin-left: 30px;
+    }
+    #savingButton {
+      display: none !important;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    .logoUpper{
+      width: 80px;
+      height: 50px;
+    }
+    .userContainer{
+      padding-left: 20px;
+      width: 30px;
+      height: 30px;
+    }
+    .repuscoreContainer{
+      width: 110px;
+      height: 110px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .nameInput {
+      margin-top: 45px;
+      height: 25px;
+      width: 140px;
+    }
+    .specialityInput {
+      margin-top: 0px;
+      height: 40px;
+      margin-top: -20px;
+      width: 140px;
+    }
+    .spaceAdjust {
+      margin-top: 10px;
+    }
+    .adjustButtonContainer {
+      margin-top: 20px;
+      margin-bottom: 30px;
+      margin-left: 5px;
+    }
+    .profilePicturePageMobile {
+      margin-left: 30px;
+    }
+    .tabText {
+      font-size: 12px;
+    }
+    .favoriteButton {
+      margin-top: 40px;
+      margin-left: 5px;
+      margin-right: -20px;
+    }
+    .personalDataDoctor {
+      margin-bottom: 60px;
+      margin-right: 10px;
+    }
+    .personalDataDoctorInput {
+      margin-bottom: 60px;
+      margin-right: 10px;
+    }
+    .doctorDescriptionPage {
+      width: 80px;
+      min-height: 50px;
+      margin-top: -10px;
+      font-size: 14px;
+      font: normal normal normal 12px/11px Poligon;
+      margin-left: -30px;
+    }
+    .doctorDescriptionPageInput {
+      width: 50%;
+      min-height: 120px;
+      margin-top: -20px;
+      margin-left: 55px;
+      font-size: 16px;
+      font: normal normal normal 16px/15px Poligon;
+    }
+    .doctorNamePage {
+      width: 80px;
+      font-size: 14px;
+      margin-top: 50px;
+      margin-left: -30px;
+    }
+    .doctorNamePageInput {
+      width: 80px;
+      font-size: 12px;
+      max-height: 30px;
+      margin-right: -20px;
+    }
+  
+    .doctorRepuscorePage {
+      margin-left: 0px;
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+    .locationContainer {
+      margin-left: 0px;
+  
+      margin: 0 auto;
+      margin-top: 30px;
+    }
+    .bookingButton {
+      margin-top: 30px;
+      font-size: 12px;
+      width: 50%;
+      margin-left: 5px;
+    }
+    .profilePicturePageMobile {
+      margin-top: 50px;
+    }
+    #savingButton {
+      display: none !important;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    .viewButton{
+      width: 80px;
+      font-size: 10px;
+    }
+    .repuscoreContainer{
+      width: 100px;
+      height: 100px;
+    }
+  }
+  
